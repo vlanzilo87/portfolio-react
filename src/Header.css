@@ -9,12 +9,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .Header-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: Header-logo-zoom infinite 2s linear;
   }
 }
 
 .Header-header {
-  background-color: #0000e6;
+  background-color: #006699;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +28,11 @@
   color: #61dafb;
 }
 
-@keyframes Header-logo-spin {
+@keyframes Header-logo-zoom {
   from {
-    transform: rotate(0deg);
+    transform: scale(2);
   }
   to {
-    transform: rotate(360deg);
+    transform: scale(1);
   }
 }

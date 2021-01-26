@@ -9,12 +9,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .Projects-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: Projects-logo-spin infinite 20s linear;
   }
 }
 
 .Projects-header {
-  background-color: #805500;
+  background-color: #006699;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

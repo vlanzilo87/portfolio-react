@@ -9,12 +9,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .Footer-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: Footer-logo-spin infinite 60s linear;
   }
 }
 
 .Footer-header {
-  background-color: #284d00;
+  background-color: #ff751a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

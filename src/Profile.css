@@ -9,12 +9,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .Profile-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: Profile-logo-spin infinite 20s linear;
   }
 }
 
 .Profile-header {
-  background-color: #ff3333;
+  background-color: #ff751a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

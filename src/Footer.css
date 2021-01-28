@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .Footer-logo {
-    animation: Footer-logo-spin infinite 60s linear;
+    animation: Footer-logo-spin infinite 60s linear 10s;
   }
 }
 

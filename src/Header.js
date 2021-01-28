@@ -7,7 +7,7 @@ function Header() {
       <header className="Header-header">
         <img src={pic} className="Header-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Vincent Lanzilotti
         </p>
         <a
           className="Header-link"

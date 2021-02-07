@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import Header from './components/Header';
 import About from './components/About';
 import Resume from './components/Resume';
@@ -9,20 +8,18 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
 
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header resumeData={resumeData}/>
-        <About resumeData={resumeData}/>
-        <Resume resumeData={resumeData}/>
-        <Portfolio resumeData={resumeData}/>
-        <Projects resumeData={resumeData}/>
-        <Contact resumeData={resumeData}/>
+        <Header resumeData={resumeData}/>,
+        <About resumeData={resumeData}/>,
+        <Resume resumeData={resumeData}/>,
+        <Portfolio resumeData={resumeData}/>,
+        <Projects resumeData={resumeData}/>,
+        <Contact resumeData={resumeData}/>,
         <Footer resumeData={resumeData}/>
-      </div>
     );
   }
 }
 
-export {App};
+export default App;

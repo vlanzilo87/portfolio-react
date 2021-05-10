@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.Header {
+  background-color: green;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .About {
   background-color: purple;
   min-height: 100vh;
@@ -15,6 +26,17 @@
 
 .Projects {
   background-color: orange;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Footer {
+  background-color: blue;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

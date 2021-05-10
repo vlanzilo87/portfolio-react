@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import logo from './logo.svg';
-// import Header from './components/Header.js';
+import Header from './components/Header.js';
 import About from './components/About.js';
 import Projects from './components/Projects.js';
-// import Footer from './components/Footer.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (

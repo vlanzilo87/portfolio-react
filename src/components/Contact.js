@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Contact extends Component {
+class Contact extends Component {
   render() {
     let resumeData = this.props.resumeData;
       return(
@@ -23,3 +23,5 @@ export default class Contact extends Component {
       );
   }
 }
+
+export default Contact;

@@ -1,25 +1,34 @@
-import React, { Component } from 'react';
-import Header from './components/Header';
-import About from './components/About';
-import Resume from './components/Resume';
-import Portfolio from './components/Portfolio';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import resumeData from './resumeData';
+import React from 'react';
+import './App.css';
+import logo from './logo.svg';
+// import Header from './components/Header.js';
+import About from './components/About.js';
+import Projects from './components/Projects.js';
+// import Footer from './components/Footer.js';
 
-class App extends Component {
-  render() {
-    return (
-        <Header resumeData={resumeData}/>,
-        <About resumeData={resumeData}/>,
-        <Resume resumeData={resumeData}/>,
-        <Portfolio resumeData={resumeData}/>,
-        <Projects resumeData={resumeData}/>,
-        <Contact resumeData={resumeData}/>,
-        <Footer resumeData={resumeData}/>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <Header/>
+      <About/>
+      <Projects/>
+      <Footer/>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+      </header>
+    </div>
+  );
 }
 
 export default App;
